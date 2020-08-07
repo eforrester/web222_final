@@ -1,0 +1,153 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Crimson Text', serif;*/
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+main {
+  padding-bottom: 60px;
+}
+header {
+  background-image: url('/images/header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  margin-bottom: 10px;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+/* header logos  */
+header img {
+  width: 120px;
+  height: 120px;
+}
+/* "Toronto Puppy Rescue" text  */
+header h1 {
+  margin: 30px;
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+header a {
+  text-decoration: none;
+}
+/* links to sort the cards  */
+aside {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  padding: 10px 20px 20px;
+  opacity: 0.95;
+}
+aside button {
+  font-size: 15px;
+  font-weight: 200;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: lightgray;
+  margin-left: 10px;
+  box-shadow: none;
+  padding: 0 5px;
+}
+aside button:hover {
+  background-color: darkgrey;
+}
+aside button:focus {
+  outline: 0;
+}
+#f-all {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#f-small,
+#f-large {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* cards on index  */
+.card-container {
+  width: 100%;
+
+  padding: 0 5%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.item {
+  max-width: 300px;
+
+  font-family: 'Crimson Text', serif;
+  padding-bottom: 20px;
+}
+
+.item img {
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 5px;
+  width: 100%;
+}
+.card-name {
+  display: block;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+.card-breed {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.card-description {
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(82, 82, 82);
+}
+.card-category {
+  display: block;
+  color: #bb4a46;
+  font-size: 16px;
+}
+.card-price {
+  display: inline-block;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  width: 100%;
+  padding: 50px 0;
+  background-color: #c9944f;
+}
+/* footer info  */
+ul {
+  list-style: none;
+}
+li address {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+li img {
+  width: 125px;
+  padding: 50px;
+}
