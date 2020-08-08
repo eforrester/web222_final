@@ -2,7 +2,7 @@
 font-family: 'Crimson Text', serif;*/
 html,
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -10,7 +10,7 @@ main {
   padding-bottom: 60px;
 }
 header {
-  background-image: url('/images/header.jpg');
+  background-image: url("/images/header.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -20,7 +20,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   color: white;
 }
@@ -42,7 +42,7 @@ header a {
 /* links to sort the cards  */
 aside {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: white;
   position: sticky;
   z-index: 10;
@@ -56,7 +56,7 @@ aside button {
   height: 40px;
   border: none;
   border-radius: 5px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   background-color: lightgray;
   margin-left: 10px;
@@ -68,6 +68,9 @@ aside button:hover {
 }
 aside button:focus {
   outline: 0;
+}
+aside button:last-child {
+  background-color: black;
 }
 #f-all {
   padding-left: 15px;
@@ -91,8 +94,7 @@ aside button:focus {
 }
 .item {
   max-width: 300px;
-
-  font-family: 'Crimson Text', serif;
+  font-family: "Crimson Text", serif;
   padding-bottom: 20px;
 }
 
@@ -132,7 +134,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   width: 100%;
   padding: 50px 0;
@@ -150,4 +152,25 @@ li address {
 li img {
   width: 125px;
   padding: 50px;
+}
+li address {
+  padding: 20px;
+}
+/* footer form  */
+.f-form {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+.f-form input {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+}
+.f-form input:last-child {
+  background-color: black;
+  color: white;
 }
