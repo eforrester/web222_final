@@ -35,6 +35,7 @@ header h1 {
   color: white;
   text-decoration: none;
   display: inline;
+  text-shadow: 2px 2px black;
 }
 header a {
   text-decoration: none;
@@ -173,4 +174,139 @@ li address {
 .f-form input:last-child {
   background-color: black;
   color: white;
+}
+
+/* contact page  */
+.subtitle {
+  text-align: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.c-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+  padding: 50px 0;
+}
+
+.c-form input,
+textarea,
+datalist {
+  font: 95% Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0 0 25px 40px;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid rgb(51, 51, 51);
+  border-radius: 2px;
+}
+
+.c-form input::placeholder {
+  color: #c9944f;
+}
+
+.c-form textarea {
+  height: 6em;
+}
+
+#c-submit {
+  padding: 10px;
+  border: 0;
+  color: white;
+  background-color: #c9944f;
+}
+
+.isHidden {
+  display: none;
+}
+
+/* PHONE landscape & smaller */
+@media all and (max-width: 568px) {
+  header {
+    height: 180px;
+    font-size: 10px;
+  }
+  header img {
+    height:50px; 
+    width: 50px; 
+  }
+  aside {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px 10px 10px;
+  }
+  aside button {
+    font-size: 10px;
+    font-weight: 250;
+    height: 25px;
+  }
+  .card-container {
+    grid-template-columns: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+  }
+  footer img {
+    height: 50px;
+    width: 50px; 
+    padding: 20px;
+  }
+  .f-form input {
+    width: 100px;
+  }
+  .c-form {
+    padding: 20px 0;
+  }
+  .c-form input,
+  textarea,
+  datalist {
+    font-size: 10px;
+    margin: 0 0 15px 0px;
+  }
+  .c-form textarea {
+    height: 4em;
+  }
+  label {
+    font-size: 13px;
+  }
+}
+}
+/* for horizontal */
+@media all and (min-width: 480px) and (max-width: 768px) {
+  header {
+    height: 180px;
+    font-size: 20px;
+  }
+  header img {
+    height: 75px; 
+    width: 75px; 
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+  }
+  footer img {
+    height: 100px;
+  }
+  aside {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px 10px 10px;
+  }
+  aside button {
+    font-size: 10px;
+    font-weight: 250;
+    height: 25px;
+  }
 }
