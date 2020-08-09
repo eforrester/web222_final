@@ -1,4 +1,17 @@
 
-> assignment5@1.2.0 stylelint C:\Users\14373\desktop\cpa\semester_3\web222\assignments\a5\assignment
+> assignment5@1.2.0 stylelint C:\Users\14373\desktop\cpa\semester_3\WEB222\assignments\a5\assignment
 > stylelint src/**/*.css
 
+Error: No configuration provided for C:\Users\14373\desktop\cpa\semester_3\WEB222\assignments\a5\assignment\src\style.css
+    at module.exports (C:\Users\14373\Desktop\CPA\SEMESTER_3\WEB222\Assignments\a5\assignment\node_modules\stylelint\lib\utils\configurationError.js:10:14)
+    at C:\Users\14373\Desktop\CPA\SEMESTER_3\WEB222\Assignments\a5\assignment\node_modules\stylelint\lib\getConfigForFile.js:56:11
+    at async Promise.all (index 0)npm ERR! code ELIFECYCLE
+npm ERR! errno 78
+npm ERR! assignment5@1.2.0 stylelint: `stylelint src/**/*.css`
+npm ERR! Exit status 78
+npm ERR! 
+npm ERR! Failed at the assignment5@1.2.0 stylelint script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\14373\AppData\Roaming\npm-cache\_logs\2020-08-09T04_30_55_613Z-debug.log

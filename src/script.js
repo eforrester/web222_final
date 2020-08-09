@@ -12,18 +12,18 @@ let yngIsFiltered = false;
 
 filterButtonAll.addEventListener("click", reset);
 
-filterButtonyng.addEventListener("click", (e) => {
+filterButtonyng.addEventListener("click", e => {
   if (oldIsFiltered) {
     reset();
   }
   if (!oldIsFiltered) {
-    old.forEach((item) => {
+    old.forEach(item => {
       item.style.display = "none";
     });
     e.target.style.backgroundColor = "#bb4a46";
     yngIsFiltered = true;
   } else {
-    old.forEach((item) => {
+    old.forEach(item => {
       item.style.display = "block";
     });
     e.target.style.backgroundColor = "lightgray";
@@ -32,18 +32,18 @@ filterButtonyng.addEventListener("click", (e) => {
   }
 });
 
-filterButtonold.addEventListener("click", (e) => {
+filterButtonold.addEventListener("click", e => {
   if (yngIsFiltered) {
     reset();
   }
   if (!yngIsFiltered) {
-    small.forEach((item) => {
+    small.forEach(item => {
       item.style.display = "none";
     });
     e.target.style.backgroundColor = "#bb4a46";
     oldIsFiltered = true;
   } else {
-    small.forEach((item) => {
+    small.forEach(item => {
       item.style.display = "block";
     });
     e.target.style.backgroundColor = "lightgray";
@@ -54,10 +54,10 @@ filterButtonold.addEventListener("click", (e) => {
 
 function reset() {
   {
-    small.forEach((painting) => {
+    small.forEach(painting => {
       painting.style.display = "block";
     });
-    old.forEach((painting) => {
+    old.forEach(painting => {
       painting.style.display = "block";
     });
 

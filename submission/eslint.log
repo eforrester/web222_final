@@ -1,4 +1,27 @@
 
-> assignment5@1.2.0 eslint C:\Users\14373\desktop\cpa\semester_3\web222\assignments\a5\assignment
+> assignment5@1.2.0 eslint C:\Users\14373\desktop\cpa\semester_3\WEB222\assignments\a5\assignment
 > eslint src/**/*.js
 
+
+Oops! Something went wrong! :(
+
+ESLint: 6.8.0.
+
+ESLint couldn't find a configuration file. To set up a configuration file for this project, please run:
+
+    eslint --init
+
+ESLint looked for configuration files in C:\Users\14373\desktop\cpa\semester_3\WEB222\assignments\a5\assignment\src and its ancestors. If it found none, it then looked in your home directory.
+
+If you think you already have a configuration file or if you need more help, please stop by the ESLint chat room: https://gitter.im/eslint/eslint
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 2
+npm ERR! assignment5@1.2.0 eslint: `eslint src/**/*.js`
+npm ERR! Exit status 2
+npm ERR! 
+npm ERR! Failed at the assignment5@1.2.0 eslint script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\14373\AppData\Roaming\npm-cache\_logs\2020-08-09T04_30_53_847Z-debug.log

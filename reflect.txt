@@ -1,0 +1,31 @@
+• Explain some of the main features of HTML Forms and Input elements you used to help
+make sure the user’s input was valid for your forms.
+
+Some of the main features of HTML Forms and Input that I used to validate input included
+built-in form validation such as adding validation attributes on my forms. Specifically, 
+I used "required" to specify if certain fields needed to filled in before submitting it. 
+I also implemented regular expressions by adding the pattern attributes to check if the given 
+input matched the required format for specific types such as phone numbers and postal codes. 
+Some of the input elements to restrict user input that I utilized included radio buttons and 
+checkboxes where the input was validated using Javascript. Overall this project required the 
+implementation of multiple types of HTML input elements to create a form. 
+
+• How did you test that your forms were working, and did this testing find any bugs in
+your implementation? How did you address these?
+I tested if my forms were working by supplying invalid data and seeing if it would submit.
+A bug I encountered was my form would submit despite required data not being supplied. I 
+addressed this by adding a required attribute to their designated input fields. I also 
+noticed that my contact form was accepting invalid email addresses. I fixed this bug by 
+specifying that the desired input is an email type for the input boxes. Finally, I tested
+if my subscribe form was working by inputting my own email and checking if I received anything.
+
+• What advice would you give to other web developers building forms for their pages
+based on your own experience? What lessons did you learn?
+Some advice I would give to other developers who are building forms for their own pages is to
+create the most simple and straightforward form that tells the user exactly what is needed from them.
+It is important to create user friendly forms that anyone can navigate. I would also give the advice
+to include client-side form validation that is built in so that they receive the right data in the right format.
+This is important to both the user and the website owner so that they can communicate using the 
+implemented form smoothly. 
+
+
